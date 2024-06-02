@@ -1,0 +1,20 @@
+requests==2.26.0
+flask>=2.0
+pytest==6.2.5
+black==21.9b0
+
+
+
+
+pipenv==2023.12.1
+fastapi==0.111.0
+
+
+
+# pip install --upgrade pipenv
+# pipenv install
+# pipenv shell
+# pipenv install pytest
+# pipenv install pytest-cov
+
+# $ python -m pip install fastapi uvicorn[standard]
