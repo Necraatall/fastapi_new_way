@@ -16,9 +16,6 @@ DB_NAME = os.getenv("DB_NAME")
 # Použití proměnných připojení k databázi
 DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}"
 
-# DATABASE_URL = "postgresql://postgres:root@db:5450/stockdb"
-# DATABASE_URL = 'postgresql://postgres:root#5432@localhost/stockdb'
-# DATABASE_URL = "postgresql://postgres:root@localhost:5450/stock_db"
 Base = declarative_base()
 
 
